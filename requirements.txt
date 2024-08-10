@@ -1,0 +1,6 @@
+protobuf==4.25.4
+redis==5.0.8
+haystack-ai==2.3.0
+google-ai-haystack==1.1.1
+sourcegraph==0.0.6
+google-generativeai==0.7.2
