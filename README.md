@@ -22,6 +22,11 @@ This repository contains the code accompanying my Medium article, Building LLM P
    streamlit run app.py
    ```
 
+4. **Example (with [keras-ocr](https://github.com/faustomorales/keras-ocr))**
+![Alt text](images/image.png)
+![Alt text](images/image-1.png)
+![Alt text](images/image-2.png)
+![Alt text](images/image-3.png)
 
 If you encounter any issues or have questions, feel free to open an issue in this repository.
 
