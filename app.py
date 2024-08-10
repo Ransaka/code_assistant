@@ -14,11 +14,6 @@ from data_processor import fetch_data,ingest_data
 
 load_dotenv()
 
-# client = redis.Redis(
-#   host=os.environ['REDIS_HOST'],
-#   port=12305,
-#   password=os.environ['REDIS_PASSWORD']
-# )
 
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 

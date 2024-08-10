@@ -57,7 +57,7 @@ def fetch_data(url):
     for key, value in tqdm(data.items()):
       data[key]['description'] = get_description(value['definition'])
       data[key]['uses'] = ", ".join(list(gihub_repository.get_dependencies(key)))
-      time.sleep(2) #to overcome limit issues
+      time.sleep(3) #to overcome limit issues
     return data
 
 def get_embeddings(content: List):
