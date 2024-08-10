@@ -185,12 +185,6 @@ if selected_tab == 'Data Fetching':
             
             st.write(response_string)
 if selected_tab == 'Assistant':
-    # Initialize session state for chat history
-    client = redis.Redis(
-        host=os.environ['REDIS_HOST'],
-        port=12305,
-        password=os.environ['REDIS_PASSWORD']
-    )
     if "messages" not in st.session_state:
         st.session_state.messages = []
 
